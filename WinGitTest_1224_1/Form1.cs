@@ -26,5 +26,10 @@ namespace WinGitTest_1224_1
         {
             this.Text = "ㅁㄴㅇㄻㄴㄴㅇㄹㅇ";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Text = "우짤";
+        }
     }
 }

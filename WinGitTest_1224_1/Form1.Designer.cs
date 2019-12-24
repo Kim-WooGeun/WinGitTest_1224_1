@@ -108,6 +108,7 @@ namespace WinGitTest_1224_1
             this.Font = new System.Drawing.Font("맑은 고딕", 9F);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
