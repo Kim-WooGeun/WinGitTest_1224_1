@@ -16,5 +16,15 @@ namespace WinGitTest_1224_1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Text = "버튼클릭";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Text = "ㅁㄴㅇㄻㄴㄴㅇㄹㅇ";
+        }
     }
 }
